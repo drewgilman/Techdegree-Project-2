@@ -1,0 +1,143 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+  /* outline: 1px red solid; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  background: gainsboro;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+a:hover {
+  color: grey;
+}
+
+p {
+  font-size: 1.25em;
+}
+/* Link Styles */
+
+.nav a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25em;
+  width: 100%;
+  margin: .75em auto;
+  padding: .75em;
+  background: white;
+
+}
+
+/* Section Styles */
+
+.main-header {
+  padding: 1em;
+}
+
+.section-title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 2em;
+}
+.main-content {
+  background: white;
+  padding-bottom: 3em;
+}
+
+.page-desc {
+  padding: 0 1em;
+
+}
+.contact-info {
+  font-size: 1.3em;
+  padding: 1em;
+}
+.main-footer {
+  padding: 0 1em 2em 1em;
+  margin-bottom: 2em;
+  position: relative;
+}
+.secondary-nav {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  padding: 0;
+  margin:0;
+}
+.name-bottom {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  left: 16px;
+  padding: 1em;
+  margin: 0;
+
+}
+
+.back-top {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 1em;
+  margin: 0;
+}
+
+.super-footer {
+  border-top: 1px solid grey;
+  margin-top: 2em;
+  padding: 1em 0;
+}
+
+/* Images */
+
+.profile-image {
+  width: 80%;
+
+}
+
+.page-graphics {
+  width: 100%;
+  padding: 0 1em;
+}
+
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+
+}
