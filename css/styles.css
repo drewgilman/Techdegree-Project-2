@@ -1,7 +1,7 @@
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
-  outline: 1px red solid;
+  /* outline: 1px red solid; */
 }
 
 body {
@@ -64,6 +64,7 @@ p {
 
 .page-desc {
   padding: 0 1em;
+
 
 }
 .contact-info {
@@ -169,6 +170,12 @@ p {
     max-width: 367px;
   }
 /* Body Elements */
+.main-content {
+  padding-bottom: 2em;
+}
+  .page-desc {
+    font-size: 1.125em;
+  }
   .pages li {
     display: inline-block;
     margin: 0 1em 1em 1em;
@@ -197,7 +204,7 @@ p {
   .nav2{
     display: inline-block;
     padding: 1em;
-    margin: 0 1em;
+    margin: 0 .5em;
     text-transform: uppercase;
     font-weight: bold;
 
