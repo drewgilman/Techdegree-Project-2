@@ -1,7 +1,7 @@
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
-  /* outline: 1px red solid; */
+  outline: 1px red solid;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Cabin', sans-serif;
-  background: gainsboro;
+  background: #F8F8F8;
 
 }
 
@@ -107,11 +107,15 @@ p {
   margin-top: 2em;
   padding: 1em 0;
 }
+.nav2 {
+  display: none;
+}
 
 /* Images */
 
 .profile-image {
   width: 80%;
+  max-width: 367px;
 
 }
 
@@ -131,9 +135,73 @@ p {
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
+/* Header Elements */
+  .nav li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+  }
+  .nav a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 0 auto;
+    padding: .75em 1em;
+    background-color: inherit;
 
+  }
+  .intro-container {
+    max-width: 830px;
+    margin: 0 auto;
+  }
+  .intro {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 0;
 
+  }
+  .profile-image {
+    float: right;
+    width: 40%;
+    max-width: 367px;
+  }
+/* Body Elements */
+  .pages li {
+    display: inline-block;
+    margin: 0 1em 1em 1em;
+    width: 45%;
+    vertical-align: top;
+  }
+  .main-footer {
+    margin-bottom: 3em;
+  }
+  .main-footer p {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .back-top{
+    display: none;
+  }
+  .secondary-nav {
+    width: 60%;
+    text-align: right;
 
+  }
+  .secondary-nav li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .nav2{
+    display: inline-block;
+    padding: 1em;
+    margin: 0 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
 }
 
 @media (min-width: 1024px) {
