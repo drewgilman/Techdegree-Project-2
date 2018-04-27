@@ -9,7 +9,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Cabin', sans-serif;
-  background: #F8F8F8;
+  background: #ECEDFF;
 
 }
 
@@ -17,6 +17,12 @@ ul {
   list-style-type: none;
   padding-left: 0;
 
+}
+li {
+  transition: all 0.5s;
+}
+li:hover {
+  transform: scale(1.05);
 }
 
 a {
@@ -212,6 +218,115 @@ p {
 }
 
 @media (min-width: 1024px) {
+/* Header Elements */
+
+  .name {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-left: 36px;
+  }
+  .nav {
+    display: inline-block;
+    text-align: right;
+
+
+    }
+  .main-header {
+    padding: 1em 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+  }
+  .nav li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+  }
+  .nav a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 0 auto;
+    padding: .75em 1em;
+    background-color: inherit;
+
+  }
+  .intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+
+
+  }
+  .intro {
+    display: inline-block;
+    font-size: 1.5em;
+    width: 55%;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 36px;
+
+
+  }
+  .profile-image {
+    float: right;
+    width: 40%;
+    max-width: 367px;
+    margin-right: 36px;
+  }
+/* Body Elements */
+.main-content {
+  padding-bottom: 2em;
+}
+  .page-desc {
+    font-size: 1.125em;
+  }
+  .pages {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+
+  }
+  .page-graphics {
+    padding: 0;
+  }
+  .pages li {
+    display: inline-block;
+    margin: 0 .75em;
+    width: 30%;
+    vertical-align: top;
+  }
+  .main-footer {
+    margin-bottom: 3em;
+  }
+  .main-footer p {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .back-top{
+    display: none;
+  }
+  .secondary-nav {
+    width: 60%;
+    text-align: right;
+
+  }
+  .secondary-nav li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .nav2{
+    display: inline-block;
+    padding: 1em;
+    margin: 0 .5em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
 
 
 
